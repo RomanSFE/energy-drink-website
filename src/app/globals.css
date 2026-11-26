@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #050505;
+  color: #ffffff;
+  font-family: var(--font-sans, system-ui, sans-serif), sans-serif;
+  overflow-x: hidden;
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Custom font utility classes */
+.font-nitro-display {
+  font-family: var(--font-display, Impact, sans-serif);
+}
